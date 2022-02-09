@@ -1,4 +1,18 @@
+h1
+{
+background-color:yellow;
+padding:20px 20px 20px 20px;
+}
+
+ul
+{
+background-color:pink;
+padding:20px;
+}
+
 li.main
 {
 display:inline;
+background-color: aqua;
+margin:20px 20px 20px 20px;
 }
