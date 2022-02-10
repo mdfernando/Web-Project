@@ -3,12 +3,25 @@
 <title> Infectious Diseases </title>
   <link rel="stylesheet" type="text/css" href="Infectious Diseases.css">
 </head>
+<script>
+  function setNewImage()
+  {
+      document.getElementById("img1").src="77.jpg";
+  }      
+  
+  function setOldImage() 
+  {
+    document.getElementById("img1").src="55.jpg";
+  }
+</script>
 <body>
-    <h1 > Infectious Diseases </h1>
-    <img src="55.jpg" width="500" height="600"/>
-    <p>
-   
-</p>
+  <h1>
+    Infectious Diseases 
+  </h1>
+    
+<img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" 
+src="55.jpg" width="500" height="600"/>
+    
 </body>
 
 </html>
