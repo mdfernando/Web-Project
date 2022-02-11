@@ -1,8 +1,18 @@
 h1
 {
-    color:red;
+    color:#008000;
+    background-color:#00FF00;
 }
 body
 {
-    background-color:#94E97A ;
+    background-color:wheat;
+    
+}
+h3
+{
+    color:blue;
+}
+ul
+{
+    color:red;
 }
