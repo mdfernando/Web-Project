@@ -13,8 +13,19 @@
   {
     document.getElementById("img1").src="55.jpg";
   }
+
+  function setNew()
+  {
+    document.getElementById("img2").src="99.jfif";
+  }
+  function setOld() 
+  {
+    document.getElementById("img2").src="11.jpg";
+  }
+
 </script>
 <body>
+  <div class="container"></div>
   <h1>
     Infectious Diseases 
   </h1>
@@ -23,16 +34,27 @@
     25.4 million people were accessing antiretroviral therapy in that year also.690 000 people died from HIV related illness in that year. That rate remained for higher 
     than the global target for 2020.in sub saharan africa was the highest number of people living with HIV.
   </p>
+  <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" 
+src="55.jpg" width="500" height="400" 
+style="float:right"/>
+
   <p>
-   In 2019, an estimated 10 million people fell ill with tuberculosis, of whom 56 per cent were adult men, 32 per cent adult women, 12 per cent children and 8.2 per cent people living with HIV, making it the leading cause of death from a single infectious agent. Globally, the incidence of tuberculosis fell from 174 new and relapse cases per 100,000 population in 2000 to 130 cases per 100,000 in 2019, a 25 per cent decline over the period, with the tuberculosis mortality rate among HIV-negative people falling by 45 per cent in the same period. Although the disease burden is decreasing, large gaps in detection and treatment persist, and the current pace of progress is not fast enough to meet the target of ending tuberculosis by 2030. Drug - resistant tuberculosis is a continuing threat: in 2019, there were 465,000 new cases with resistance to rifampicin, the most effective first-line drug, and 78 per cent of those infected with tuberculosis had a multidrug-resistant strain. As a result of the COVID-19 pandemic, an estimated 1.4 million fewer people received necessary care for tuberculosis during 2020 compared with the previous year, a reduction in treatment levels of 21 per cent.
+   In <b>2019</b>, an estimated 10 million people fell ill with tuberculosis, of whom 56 per cent were adult men, 32 per cent adult women, 12 per cent children and 8.2 per cent people living with HIV, making it the leading cause of death from a single infectious agent. Globally, the incidence of tuberculosis fell from 174 new and relapse cases per 100,000 population in 2000 to 130 cases per 100,000 in 2019, a 25 per cent decline over the period, with the tuberculosis mortality rate among HIV-negative people falling by 45 per cent in the same period. Although the disease burden is decreasing, large gaps in detection and treatment persist, and the current pace of progress is not fast enough to meet the target of ending tuberculosis by 2030. Drug - resistant tuberculosis is a continuing threat: in 2019, there were 465,000 new cases with resistance to rifampicin, the most effective first-line drug, and 78 per cent of those infected with tuberculosis had a multidrug-resistant strain. As a result of the COVID-19 pandemic, an estimated 1.4 million fewer people received necessary care for tuberculosis during 2020 compared with the previous year, a reduction in treatment levels of 21 per cent.
   </p>
+  
   <p>
     Between 2015 and 2019, the incidence of malaria plateaued at around 57 cases per 1,000 people at risk. The target of the World Health Organization for reductions in malaria case incidence in 2020 will be missed by 37 per cent. In 2019, there were a total of 229 million malaria cases worldwide, with the disease claiming some 409,000 lives. Gaps in funding and in access to life-saving tools are undermining global efforts to curb the disease, and the COVID-19 pandemic is expected to set the fight back even further.
   </p>
+  <P>
+    The use of the hepatitis B vaccine in infants has reduced the incidence of new chronic hepatitis B infections considerably. The proportion of children under 5 years of age who became chronically infected fell from 4.7 per cent in the pre-vaccination era to 0.9 per cent in 2020. Worldwide, the 2020 target of 1 per cent seroprevalence in children under 5 years of age has been met. Additional efforts for increasing coverage are needed to achieve the Goal target of 0.1 per cent seroprevalence by 2030.
+    In 2019, 1.74 billion people were reported to have required mass or individual treatment and care for neglected tropical diseases, down from 2.19 billion in 2010 and 12 million fewer than the figure reported for 2018. The lower number of people requiring interventions is largely the result of having eliminated at least one neglected tropical disease in 42 countries and territories since 2010.
+  </P>
+
+  <img id="img2" onmouseover="setNew()" onmouseout="setOld()" 
+src="11.jpg" width="400" height="400" 
+style="float:left"/>
     
-<img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" 
-src="55.jpg" width="500" height="600" 
-style="float:right"/>
+
     
 </body>
 
