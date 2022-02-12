@@ -1,6 +1,6 @@
 body
 {
-background-color:black;
+background-image:url('image 1.jpg');
 }
 
 ul.one
@@ -11,24 +11,23 @@ margin:20px 0px 0px 60px;
 li.option
 {
 display:inline;
-background-color: grey;
+background-color:black;
 padding:15px 10px 15px 10px;
 margin:0px 0px 0px 0px;
 }
 
-a
+a.one
 {
 color:white;
 text-decoration:none;
 }
 
-img.image2
+img.image3
 {
 margin:20px 0px 0px 100px;
-
 }
 
-img.image3
+img.image4
 {
 margin:20px 0px 0px 100px;
 }
@@ -57,17 +56,52 @@ ul.two
 position:absolute;
 top:350px;
 left:460px;
-font-size:120%
+font-size:120%;
 }
 
 li.member
 {
 font-family:Arial;
 color:white;
-
 }
 
 pre.two
 {
 font-family:Arial;
+}
+
+h1.intro
+{
+position:absolute;
+top:850px;
+left:500px;
+font-size:250%;
+text-shadow:-5px 5px rgb(180, 172, 169);
+}
+
+p
+{
+font-size:120%;
+position:absolute;
+top:950px;
+left:480px;
+}
+
+ul.three
+{
+position:absolute;
+top:1350px;
+left:460px;
+font-size:120%;
+list-style-type:circle;
+}
+
+li.list
+{
+font-family:Arial;
+}
+
+a.two
+{
+color:rgb(10, 68, 10);
 }
