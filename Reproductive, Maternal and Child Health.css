@@ -1,8 +1,12 @@
+h2
+{
+    color:rgb(153, 41, 60);
+}
 h3
 {
-    color:pink;
+    color:bisque
 }
 body
 {
-    background-color: aquamarine;
+    background-color: rgb(2, 2, 36);
 }
