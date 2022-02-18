@@ -3,7 +3,7 @@ body
 background-image:url('image 1.jpg');
 }
 
-ul.one
+#ulone
 {
 margin:20px 0px 0px 60px;
 }
@@ -16,18 +16,18 @@ padding:15px 10px 15px 10px;
 margin:0px 0px 0px 0px;
 }
 
-a.one
+#aone
 {
 color:white;
 text-decoration:none;
 }
 
-img.image3
+#image3
 {
 margin:20px 0px 0px 100px;
 }
 
-img.image4
+#image4
 {
 margin:20px 0px 0px 100px;
 }
@@ -41,7 +41,7 @@ left:500px;
 color:rgb(214, 154, 154);
 }
 
-pre.one
+#pone
 {
 position:absolute;
 top:280px;
@@ -51,7 +51,7 @@ font-style:italic;
 color:yellow;
 }
 
-ul.two
+#ultwo
 {
 position:absolute;
 top:350px;
@@ -59,13 +59,37 @@ left:460px;
 font-size:120%;
 }
 
-li.member
+#member1
 {
 font-family:Arial;
 color:white;
 }
 
-pre.two
+#member2
+{
+font-family:Arial;
+color:white;
+}
+
+#member3
+{
+font-family:Arial;
+color:white;
+}
+
+#member4
+{
+font-family:Arial;
+color:white;
+}
+
+#member5
+{
+font-family:Arial;
+color:white;
+}
+
+#ptwo
 {
 font-family:Arial;
 }
@@ -87,7 +111,7 @@ top:950px;
 left:480px;
 }
 
-ul.three
+#ulthree
 {
 position:absolute;
 top:1350px;
@@ -101,7 +125,7 @@ li.list
 font-family:Arial;
 }
 
-a.two
+#atwo
 {
 color:rgb(10, 68, 10);
 }
