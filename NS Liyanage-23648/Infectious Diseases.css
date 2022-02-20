@@ -15,7 +15,20 @@ h3
     font-size:20px;
     font-family:Verdana, Tahoma, sans-serif;
 }
+img
+{
+    float:left;
+     margin-right:10px; 
+     margin-top:5px; 
+     margin-left:10px;
+}
 ul
 {
+    
     color:red;
 }
+li
+    {
+        font-size:20px; 
+        font-family:arial;
+    }
