@@ -2,6 +2,7 @@ h1
 {
     color:#008000;
     background-color:#00FF00;
+    text-shadow:#2DF10A ;
 }
 body
 {
@@ -25,6 +26,7 @@ img
 h2
 {
     color: #0A23F1 ;
+    font-weight: bold;
 }
 ul
 {
