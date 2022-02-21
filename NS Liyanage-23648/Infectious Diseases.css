@@ -25,6 +25,12 @@ img
      margin-top:5px; 
      margin-left:10px;
 }
+dt
+{
+    border: #0A23F1;
+    border-radius: 12px;
+    padding: o.5em;
+}
 h2
 {
     color: #0A23F1 ;
