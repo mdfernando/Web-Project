@@ -1,16 +1,23 @@
 h1
 {
-    color:#008000;
-    background-color:#00FF00;
-    text-shadow:#2DF10A ;
+    color:rgb(56,52,52);
+    background-color:white;
     text-align: center;
+    margin:0px 400px 0px 400px;
+    padding:10px 20px 10px 20px;
 }
 body
 {
     background-color:wheat;
     margin: 10px;
    padding: 5px;
-    
+   background-image: url("22.jpeg");
+   background-repeat:repeat;
+   background-attachment:fixed;
+}
+p
+{
+    font-size: large;
 }
 h3
 {
@@ -25,21 +32,16 @@ img
      margin-top:5px; 
      margin-left:10px;
 }
-dt
-{
-    border: #0A23F1;
-    border-radius: 12px;
-    padding: o.5em;
-}
+
 h2
 {
-    color: #0A23F1 ;
+    color: #F1680A ;
     font-weight: bold;
 }
 ul
 {
     
-    color:red;
+    color:white;
 }
 li
     {
