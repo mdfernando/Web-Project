@@ -1,12 +1,16 @@
-h2
+h1
 {
-    color:rgb(153, 41, 60);
+    color:rgb(41, 37, 2);
 }
 h3
 {
     color:bisque
 }
+h2
+{
+    color:rgb(91, 91, 199);
+}
 body
 {
-    background-color: rgb(2, 2, 36);
+    background-color: whitesmoke ;
 }
