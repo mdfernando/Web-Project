@@ -1,6 +1,9 @@
 h1
 {
-    color:rgb(48, 44, 13);
+    color:rgb(56,52,52);
+    background-color:white;
+    margin:0px 600px 0px 0px;
+    padding:0px 0px 0px 0px;
 }
 h3
 {
@@ -16,5 +19,7 @@ p
 }
 body
 {
-    background-color: whitesmoke ;
+    background-image:url("image 1.jpg");
+    background-repeat:repeat;
+    background-attachment:fixed;
 }
