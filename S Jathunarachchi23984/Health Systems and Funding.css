@@ -1,0 +1,18 @@
+h1
+{
+    color:rgb(56,52,52);
+    background-color:white;
+    margin:0px 1100px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+h2
+{
+    color:black;
+}
+body
+{
+    background-image:url("image 1.jpeg");
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
